@@ -1,0 +1,122 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 1.6rem;
+	color: #333;
+}
+main {
+	position: relative;
+	width: 100%;
+	background-color: #e1e1e1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 50px;
+}
+header {
+	width: 90%;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 15px;
+}
+header #title {
+	padding-bottom: 10px;
+}
+header #intro {
+	padding-bottom: 15px;
+}
+#image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 2%;
+	background-color: #ffffff;
+}
+#image img {
+	width: 95%;
+	padding-bottom: 10px;
+}
+#image p {
+	text-align: center;
+	width: 90%;
+}
+article {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	align-items: center;
+	justify-content: space-around;
+}
+article h2 {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+ul {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+ul li {
+	width: 80%;
+	padding-bottom: 4rem;
+	margin: auto;
+}
+ul li p {
+	padding-left: 1rem;
+	text-align: justify;
+}
+ul li .year {
+	font-weight: bolder;
+}
+#finalword {
+	width: 80%;
+	font-style: italic;
+}
+#finalword p {
+	padding-bottom: 3.2rem;
+	text-align: justify;
+}
+footer {
+	width: 70%;
+	padding-bottom: 50px;
+	align-items: center;
+}
+footer p {
+	font-size: 2rem;
+	font-weight: bold;
+}
+footer p a {
+	font-weight: bolder;
+}
+#copyright {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	font-size: 1.4rem;
+}
+#copyright a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 760px) {
+	article {
+		width: 90%;
+	}
+	footer {
+		width: 90%;
+	}
+}
